@@ -1,0 +1,43 @@
+html, body {
+	margin: 10px;
+	padding: 0px;
+	border: 0px;
+}
+
+html, body {
+	color: #000;
+	background-color: white
+}
+html, body, p, th, td, li, dd, dt { 
+	font: 1em Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {font-size: 2em;}
+h2 {font-size: 1.5em;}
+
+a:link { color: #00f; }
+
+/*the code below will add background-image*/
+
+
+pre, p {
+    font-size: 1.5em;
+    color: #FE7F88;
+    background-color: transparent;
+}
+
+div {
+  background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+}
+
+p {
+  background-image: none;
+}
+
+.catsandstars {
+  background-image:  url("https://developer.mozilla.org/samples/cssref/images/startransparent.gif"), 
+                     url("https://mdn.mozillademos.org/files/7693/catfront.png");
+  background-color: transparent;
